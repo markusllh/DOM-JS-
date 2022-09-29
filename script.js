@@ -23,6 +23,9 @@ squares.forEach(square => {
 })
 
 function clearScore() {
+  timesClicked.red = 0 
+  timesClicked.yellow = 0
+  timesClicked.green = 0
   squares.forEach(square => square.innerText = 0)
 }
 
